@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/Project_3_Math/main.js"></script>
+
+    <h1>Return values From a Function</h1>
+        <section>
+            <h2>call function</h2>
+            <input type="text" id="num1">
+            <input type="text" id="num2">
+            <button id="calButton">do math</button>
+        </section>
+
+        <!-- internal scripts -->
+        <script>
+            function addFormula(x,y) {
+                return x + y;
+            }
+
+            function addFormula(x,y) {
+                return x - y;
+            }
+
+            function doMath() {
+                var n1 = Number(document.getElementById('num1').value);
+                var n2 = Number(ducument.getElementById('num2').value);
+
+                var sum = addFormula(n1,n2);
+                var sum = subtractFormula(n1,n2);
+
+                console.log(sum);
+                console.log(sub);
+
+            }
+
+            document.getElementById('calButtom').addEventListener('click',doMath)
+            
+            
+            </script>
+    
+</body>
+</html>
