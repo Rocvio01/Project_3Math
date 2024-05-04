@@ -37,3 +37,15 @@ document.write(Y);
 
 window.alert(Math.random());
 window.alert(Math.random() * 60);
+
+function my_dictionary() {
+    var Animal = {
+        Species:"Dog",
+        Color:"BLack",
+        Breed:"Labrador",
+        Age:"5",
+        Sound:"Bark",
+    }
+delete Animal.Sound;
+document.getElementById("Dictionary") .innerHTML = Animal.Sond;
+}
